@@ -1,0 +1,108 @@
+/**
+ * CSS for the public-facing Sermon Media plugin
+ */
+
+.smet0_tabbed_content {
+  background-color: #ffffff;
+  border-color: #000000;
+  border-width: 1px;
+  box-shadow: 0em 0.25em 2em 0em #000000;
+}
+
+.smet0_tabs {
+  margin-bottom:0px !important;
+  overflow: hidden;
+  padding: 8px 0 0 4px;
+}
+
+.smet0_tabs button,
+.smet0_tabs button:visited {
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 0px;
+  color:#000;
+  cursor: pointer;
+  float: left;
+  margin-right:4px;
+  outline: none;
+  padding: 4px;
+  transition: 0.3s;
+}
+
+.smet0_tabs button:hover,
+.smet0_tabs button.active {
+  border-bottom: 5px solid #009196;
+  color:#000;
+  text-decoration: none;
+}
+
+.smet0_tabcontent {
+  border-top: none;
+  display: none;
+  margin-top: 4px;
+  padding: 0px;
+}
+
+#smet0_video {
+  background-color: #000;
+  border: 0px;
+  border: 0px;
+  margin: 2px;
+  padding:0px;
+}
+
+.smet0_iframe {
+  border:0px;
+  height: 315px;
+  width: 560px;
+}
+
+#smet0_audio {
+  margin-top:20px;
+}
+
+#smet0_download {
+  margin: 20px 0px 20px 20px;
+  padding-bottom:10px;
+}
+
+#smet0_download a:link,
+#smet0_download a:visited,
+.smet0_exerpt_link_to_sermon:link,
+.smet0_exerpt_link_to_sermon:visited
+{
+  background-color: transparent;
+  border-radius: 0.25em;
+  border: 3px solid #e5e5e5;
+  color: #272727;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 1.3;
+  margin-bottom:10px;
+  padding: 4px 8px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.15s linear;
+  vertical-align: middle;
+  width: 240px;
+}
+
+#smet0_download a:hover,
+#smet0_download a:active,
+.smet0_exerpt_link_to_sermon:hover,
+.smet0_exerpt_link_to_sermon:active
+{
+  background-color:#ef2201;
+  background-color:transparent;
+  border-color:#009196;
+  color:#272727;
+  text-transform:uppercase;
+}
+
+#smet0_bible_passage {
+  margin:20px 0 20px 0;
+}
